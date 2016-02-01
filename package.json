@@ -1,6 +1,6 @@
 {
   "name": "ui-creator",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "ui creator for base ui",
   "main": "index.js",
   "bin": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/vellengs/ui-creator#readme",
   "dependencies": {
-    "commander": "^2.9.0"
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.5"
   }
 }
