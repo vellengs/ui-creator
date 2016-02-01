@@ -1,0 +1,30 @@
+{
+  "name": "ui-creator",
+  "version": "1.0.0",
+  "description": "ui creator for base ui",
+  "main": "index.js",
+  "bin": {
+    "ui-creator": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vellengs/ui-creator.git"
+  },
+  "keywords": [
+    "ui",
+    "creator",
+    "shell"
+  ],
+  "author": "vellengs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vellengs/ui-creator/issues"
+  },
+  "homepage": "https://github.com/vellengs/ui-creator#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  }
+}
