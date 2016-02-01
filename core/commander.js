@@ -1,6 +1,7 @@
 import path from 'path';
 import commander from 'commander';
 
+
 import fs from 'fs-extra';
 
 let {sep} = path;
@@ -13,8 +14,6 @@ commander.usage('[command] <options ...>');
 commander.option('-v, --version', 'output the version number', () => {
     console.log("Version ....2");
 });
-
-
 
 commander.command('new <projectPath>').description('create project').action(projectPath => {
 
