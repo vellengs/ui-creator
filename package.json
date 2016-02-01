@@ -1,6 +1,6 @@
 {
   "name": "ui-creator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ui creator for base ui",
   "main": "index.js",
   "bin": {
