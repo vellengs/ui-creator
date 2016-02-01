@@ -11,13 +11,15 @@ let projectRootPath = cwd;
 commander.usage('[command] <options ...>');
 
 commander.option('-v, --version', 'output the version number', () => {
-    console.log("Version ....");
+    console.log("Version ....2");
 });
+
+
 
 commander.command('new <projectPath>').description('create project').action(projectPath => {
 
     projectRootPath = path.resolve(projectRootPath, projectPath);
-
+    console.log('test');
     fs.copy('./../www', projectRootPath, (err) => {
         if (err) return console.error(err);
         console.log('success!')
