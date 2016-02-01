@@ -1,0 +1,1 @@
+require('../core/commander-compiled.js');
